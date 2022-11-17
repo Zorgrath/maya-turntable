@@ -12,10 +12,11 @@ from maya import OpenMayaUI as omui
 from PySide2.QtCore import * 
 from PySide2.QtGui import * 
 from PySide2.QtWidgets import *
-from shiboken2 import wrapInstance 
+from shiboken2 import wrapInstance
+
 # Get the mainWindow widget
-mayaMainWindowPtr = omui.MQtUtil.mainWindow() 
-mayaMainWindow = wrapInstance(int(mayaMainWindowPtr), QWidget) 
+mayaMainWindowPtr = omui.MQtUtil.mainWindow()
+mayaMainWindow = wrapInstance(int(mayaMainWindowPtr), QWidget)
 
 
 class CreateTurntable(QWidget):
@@ -39,7 +40,7 @@ class CreateTurntable(QWidget):
             controlling the camera's vertical position.
         self.angle_interval (double): Used for storing the setting 
             controlling how many degrees the camera rotates around the 
-            turntable per frame. 
+            turntable per frame.
     """
 
     def __init__(self, *args, **kwargs):

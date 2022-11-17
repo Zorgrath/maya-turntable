@@ -1,5 +1,6 @@
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/)
 [![Maya 2023](https://img.shields.io/badge/maya-2023-blue.svg)](https://www.autodesk.com/products/maya/)
+[![Linting](https://img.shields.io/badge/PEP8%20by-Hound%20CI-a873d1.svg)](https://houndci.com)
 
 # Maya Turntable
 
